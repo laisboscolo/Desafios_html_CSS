@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Desafio Formulário</title>
+</head>
+<body>
+    <h1 style="color: crimson;"> Formulário de Interação</h1>
+     
+    <form action="">Digite seu nome: <input type="text" name="nome"> </form>
+        <br>
+        <form action="">Digite seu endereço: <input type="text" name="endereço"></form>
+        <br>
+        <form action="">Digite seu bairro: <input type="text" name="bairro"></form>
+        <br>
+        <form action="">Digite sua cidade: <input type="text" name="cidade"></form>
+        <form action=""><p>Selecione sua data de nascimento: <input type="datetime-local"></p></form>
+        <form action=""> <p>Digite sua mensagem: </p></form>
+        <input type="text" name="mensagem" maxlength="500" placeholder="Digite ate 500 caracteres" class="caixa" >
+        <br>
+        <br>
+       <p> Escolha o(s) modelo(s) de trabalho: </p>
+        <br>
+        <li> <input type="checkbox" name="tipos de trabalho" id=""> Presencial</li>
+        <li><input type="checkbox" name="tipos de trabalho" id=""> Remoto</li>
+        <li><input type="checkbox" name="tipos de trabalho" id=""> Híbrido</li>
+        <br>
+        <p>Escolha o período de trabalho</p>
+        <br>
+        <li> <input type="radio" name="horário" id=""> Manhã</li>
+        <li><input type="radio" name="horário" id=""> Tarde</li>
+        <li><input type="radio" name="horário" id=""> Noite</li>
+        <br>
+        <p>Escolha um Estado:</p>
+        <select name="Estado" >
+            <option value="em">São Paulo </option>
+            <option value="nt">Rio de Janeiro</option>
+            <option value="ns">Espirito Santo</option>
+            <option value="em">Santa Catarina</option>
+            <option value="nt">Rio Grande do Sul</option>
+            <option value="ns">Minas Gerais</option>
+            <option value="em">Bahia </option>
+            <option value="nt">Mato Grosso</option>
+            <option value="ns">Parana</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" name="termodeconsentimento" id=""> Eu aceito os <a href=https://youtu.be/jOTfBlKSQYY?si=CuP-jvJclstkeqyZ">termos</a>!
+        <br>
+        <br>
+        <input type="submit" value="Enviar Dados">   <input type="submit" value="Limpar os campos">
+
+    
+
+</body>
+</html>

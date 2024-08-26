@@ -1,0 +1,10 @@
+.caixa{
+    width:600px;
+    height:200px;
+    border:2px solid black;
+    padding:10px;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkseagreen;
+}
